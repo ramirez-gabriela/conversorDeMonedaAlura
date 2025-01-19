@@ -4,7 +4,7 @@ import java.net.HttpURLConnection;
 
 public class CurrencyConversion {
     // API de ExchangeRate-API
-    private static final String API_URL = "https://v6.exchangerate-api.com/v6/5948ab9d7c43f1bc5d393bbf/latest/";
+    private static final String API_URL = "https://v6.exchangerate-api.com/v6/yourAPI/latest/";
 
     public static double convert(String sourceCurrency, String targetCurrency, double amount) {
         try {
